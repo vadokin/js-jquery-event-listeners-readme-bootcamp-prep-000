@@ -14,8 +14,8 @@ function frameIt() {
 
 function pressIt() {
   $('input:first').on('keypress', function(key) {
-    if ($('input:first').val() === 'g') {
-      alert('g');
+    if ($('input:first').val() === 'G') {
+      alert('G');
       return;
     }
   });
