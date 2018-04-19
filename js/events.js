@@ -1,5 +1,5 @@
 function getIt() {
-  
+  return 
 }
 
 $(document).ready(function(){
