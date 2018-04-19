@@ -13,8 +13,8 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('input:first').on('keypress', function() {
-    if ($('input:first').val() === 'G') {
+  $('input:first').on('keypress', function(key) {
+    if (key.which == 71) {
       alert('G');
       return;
     }
