@@ -1,12 +1,12 @@
 function getIt() {
-  $('p:first-child').on('click', function() {
+  $('p:first').on('click', function() {
     alert('Hey!');
     return;
   });
 }
 
 function frameIt() {
-  
+  $('img:first')
 }
 
 $(document).ready(function(){
