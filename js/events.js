@@ -12,7 +12,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('form').on('keypress', function(key) {
+  $('input:first').on('keypress', function(key) {
     if ($('input:first').val() === 'g') {
       alert('g')
     }
@@ -20,7 +20,7 @@ function pressIt() {
 }
 
 function submitIt() {
-  
+
 }
 
 $(document).ready(function(){
