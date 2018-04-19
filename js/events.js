@@ -6,7 +6,9 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img:first')
+  $('img:first').on('load', function() {
+    
+  });
 }
 
 $(document).ready(function(){
