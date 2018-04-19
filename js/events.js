@@ -1,5 +1,5 @@
 function getIt() {
-  return $('p:first-child').
+  return $('p:first-child').on();
 }
 
 $(document).ready(function(){
